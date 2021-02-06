@@ -1,0 +1,19 @@
+<div class="table_wrapper">
+   <table class="table is-striped is-hoverable" >    
+   <thead>
+    <tr>
+      <th ><abbr title="TITLE">TITLE</abbr> </th>
+
+      <th ><abbr title="SNIPPET">SNIPPET</abbr> </th>
+      <th ><abbr title="COUNT">COUNT</abbr> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let result of data">
+      <td>{{result.title}}</td>
+      <td [innerHTML]="result.snippet"></td>
+      <td> {{result.wordcount}}</td>
+    </tr>
+  </tbody>
+  </table>
+</div>

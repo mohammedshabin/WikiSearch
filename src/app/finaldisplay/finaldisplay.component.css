@@ -1,0 +1,9 @@
+.table_wrapper{
+    border: 4px hidden black;
+}
+table {
+    width: 50%;
+    border-collapse: collapse;
+    text-align: center;
+    margin-left: 23%;
+  }
